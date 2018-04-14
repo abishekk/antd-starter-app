@@ -1,20 +1,22 @@
 {
   "dependencies": {
+    "antd": "^3.4.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.7.0",
-    "react-app-rewired": "^1.5.0",    
-    "react-scripts": "1.1.4"    
+    "react-app-rewire-less": "^2.1.1",
+    "react-app-rewired": "^1.5.0",
+    "react-scripts": "1.1.4"
   },
-  "name": "antd-starter-app",  
-  "private": true,  
+  "name": "antd-starter-app",
+  "private": true,
   "scripts": {
     "build": "react-app-rewired build",
     "eject": "react-scripts eject",
-    "start": "react-app-rewired start",    
-    "test": "react-app-rewired test --env=jsdom"    
-  },  
-  "version": "0.1.0"  
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "version": "0.1.0"
 }
