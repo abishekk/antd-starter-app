@@ -1,4 +1,9 @@
 .Header-icon {
-    color: #0ab;
+    color: #cab;
     font-size: 32px;
+}
+
+.Header {
+    height: 80px;
+    background-color: red;
 }
